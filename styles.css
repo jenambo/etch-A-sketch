@@ -1,0 +1,45 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: #E9190F;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: bolder;
+    color: #a08961;
+    text-align: center;
+}
+
+.mainArea {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.toolBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: #cc160c;
+    padding: 5%;
+    margin: 5%;
+}
+
+.sketchZone {
+    height: 600px;
+    width: 600px;
+    background-color:#cc160c;
+    padding: 5%;
+    margin: 5%;
+}
+
+button {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 150%;
+    height: 50px;
+    width: 150px;
+    color: #a08961;
+    background-color: #FEFFFE;
+}
