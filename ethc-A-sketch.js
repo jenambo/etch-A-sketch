@@ -1,3 +1,4 @@
 
-const elem = document.createElement('div');
-document.body.appendChild(elem)
+const element = document.createElement('div');
+element.appendChild;
+document.getElementById('gridContainer').appendChild(element);
